@@ -4,6 +4,7 @@ const ObjectId = require("mongodb").ObjectId;
 require('dotenv').config();
 const cors = require('cors');
 const app = express();
+const Rating = require('react-rating');
 
 app.use(cors());
 app.use(express.json());
